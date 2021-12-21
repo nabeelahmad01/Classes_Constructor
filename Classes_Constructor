@@ -1,0 +1,22 @@
+Classes_Constructor
+void main() {
+  var s = Student();
+  s.name = 'Hasan';
+  s.age = 21;
+  print(s.name);
+  print(s.age);
+  var e = Employee();
+  e.ename = 'Abdullah';
+  e.salary = 40000;
+  print(e.ename);
+  print(e.salary);
+  s.show();
+}
+
+class Student {
+  String name;
+  int age;
+  show() {
+    print('name is $name');
+  }
+}
